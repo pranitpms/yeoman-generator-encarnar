@@ -1,0 +1,61 @@
+{
+  "name": "generator-encarnar",
+  "version": "1.0.0",
+  "description": "A new Angular generator to bootstrap your application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pranitpms/yeoman-generator-encarnar"
+  },
+  "keywords": [
+    "pranitpms",
+    "encarnar",
+    "generator",
+    "yeoman",
+    "angular-generator"
+  ],
+  "author": "Pranit Bardapurkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranitpms/yeoman-generator-encarnar/issues"
+  },
+  "homepage": "https://github.com/pranitpms/yeoman-generator-encarnar",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "wiredep": "^4.0.0",
+    "yeoman-generator": "^0.24.1",
+    "yosay": "^1.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bump": "^0.8.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-conventional-github-releaser": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "underscore.string": "^3.3.4",
+    "yeoman-assert": "^2.2.1",
+    "yeoman-test": "^1.5.0"
+  },
+  "files": [
+    "app",
+    "common",
+    "constant",
+    "controller",
+    "decorator",
+    "directive",
+    "factory",
+    "filter",
+    "main",
+    "provider",
+    "route",
+    "service",
+    "templates",
+    "value",
+    "view",
+    "generatorUtility.js",
+    "utility.js"
+  ]
+}
